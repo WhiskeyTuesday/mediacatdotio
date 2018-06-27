@@ -1,5 +1,5 @@
 // Typography
-$base-font-family: $font-stack-system;
+$base-font-family: sans-serif;
 $heading-font-family: $base-font-family;
 
 // Line height
@@ -13,14 +13,19 @@ $small-spacing: $base-spacing / 2;
 $base-z-index: 0;
 
 // Colors
+$beige: hsla(16%, 100%, 98%, 1);
+$dark-gray: hsla(343%, 7%, 19%, 1);
+$blue-gray: hsla(197%, 3%, 54%, 1);
+$light-blue: hsla(209%,32%, 66%, 1);
+$bright-blue: hsla(202%, 65%, 80%, 1);
 $blue: #1565c0;
-$dark-gray: #333;
 $medium-gray: #999;
 $light-gray: #ddd;
 
 // Font Colors
 $base-font-color: $dark-gray;
-$action-color: $blue;
+$action-color: $blue-gray;
+$action-hover-color: $bright-blue;
 
 // Border
 $base-border-color: $light-gray;
